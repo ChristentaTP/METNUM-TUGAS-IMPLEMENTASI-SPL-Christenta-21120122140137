@@ -1,1 +1,11 @@
-# METNUM-TUGAS-IMPLEMENTASI-SPL-Christenta-21120122140137
+# Deskripsi Tugas
+Metode Matriks Balikan:
+Metode matriks balikan adalah salah satu pendekatan yang digunakan untuk menyelesaikan sistem persamaan linear. Konsep dasarnya adalah dengan menggunakan properti matriks balikan, kita dapat menyelesaikan sistem persamaan linear \( Ax = b \) dengan mengalikan kedua sisi persamaan dengan invers dari matriks \( A \), sehingga \( x = A^{-1}b \). Namun, perlu dicatat bahwa tidak semua matriks memiliki matriks balikan, yang disebut matriks singular atau non-invertible. Metode ini umum digunakan dalam berbagai bidang seperti pemrosesan sinyal, statistika, dan optimisasi.
+
+Metode Dekomposisi LU Gauss:
+Metode dekomposisi LU (Lower-Upper) dengan metode Gauss adalah teknik penting dalam aljabar linier untuk menyelesaikan sistem persamaan linear. Ide utamanya adalah mendekomposisi matriks koefisien \( A \) menjadi matriks segitiga bawah \( L \) dan matriks segitiga atas \( U \), sehingga \( A = LU \). Metode ini memecahkan sistem persamaan linear secara bertahap, pertama dengan mengubah matriks koefisien menjadi bentuk segitiga atas, dan kemudian menyelesaikan sistem dari atas ke bawah. Metode ini digunakan dalam berbagai aplikasi numerik seperti pemodelan matematika, simulasi, dan analisis data.
+
+Metode Dekomposisi Crout:
+Metode dekomposisi Crout adalah variasi dari dekomposisi LU yang menggunakan pendekatan berbeda dalam menghasilkan matriks segitiga bawah \( L \) dan matriks segitiga atas \( U \). Di metode ini, diagonal utama matriks \( U \) diinisialisasi sebagai 1, dan kemudian nilai-nilai elemen matriks \( L \) dan \( U \) dihitung secara iteratif menggunakan hubungan antar elemen matriks awal \( A \), \( L \), dan \( U \). Metode Crout juga digunakan untuk menyelesaikan sistem persamaan linear dengan cara yang serupa dengan metode LU Gauss, tetapi memiliki kelebihan tersendiri dalam beberapa kasus karena pendekatannya yang sedikit berbeda. Metode ini sering digunakan dalam berbagai aplikasi ilmu komputer, teknik, dan matematika terapan, di mana pemecahan sistem persamaan linear adalah bagian penting dari proses analisis dan pemodelan.
+
+Ketiga metode ini merupakan alat matematika dan numerik penting yang digunakan dalam berbagai aplikasi teknik, ilmu komputer, dan sains. Memahami cara kerja dan kegunaan masing-masing metode ini sangat bermanfaat dalam memahami dan mengimplementasikan solusi untuk berbagai masalah yang melibatkan sistem persamaan linear.
